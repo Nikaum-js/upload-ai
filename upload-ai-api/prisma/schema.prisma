@@ -6,8 +6,8 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
-  url      = "postgres://Nikaum-js:D5jbJs0qPEAX@ep-flat-surf-79688622.us-east-2.aws.neon.tech/neondb"
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
 }
 
 model Video {

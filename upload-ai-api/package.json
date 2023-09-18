@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts",
-    "vercel-build": "npx prisma migrate deploy"
+    "dev": "tsx watch src/server.ts"
   },
   "author": "",
   "license": "ISC",
